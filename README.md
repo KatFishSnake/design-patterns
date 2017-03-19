@@ -1,8 +1,12 @@
-##Personal take on design-patterns-for-humans
+## Personal take, on design-patterns-for-humans
 
 Inspired by and forked from [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)
 
-###Simple factory
+----
+
+# Creational Design Patterns
+
+### Simple factory
 
 *Simple factory simply generates an instance for client without exposing any instantiation logic to the client*
 
@@ -23,7 +27,7 @@ class DoorFactory {
 
 
 
-###Factory
+### Factory
 
 *It provides a way to delegate the instantiation logic to child classes.*
 
@@ -55,7 +59,7 @@ devManager.takeInterview()
 
 
 
-###Abstract Factory
+### Abstract Factory
 
 *A factory of factories; a factory that groups the individual but related/dependent factories together without specifying their concrete classes.*
 
@@ -76,7 +80,7 @@ class DoorShop {
 
 
 
-###Builder
+### Builder
 
 *Allows you to create different flavors of an object while avoiding constructor pollution. Useful when there could be several flavors of an object. Or when there are a lot of steps involved in creation of an object.*
 
@@ -111,7 +115,7 @@ class Builder {
 
 
 
-###Prototype
+### Prototype
 
 *Create object based on an existing object through cloning.*
 
@@ -140,7 +144,7 @@ cloned.setName('Dolly')
 
 
 
-###Singleton
+### Singleton
 
 *Ensures that only one object of a particular class is ever created.*
 
